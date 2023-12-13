@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mccourse",
+	"version": "${version}",
+	"name": "MC Course MOd",
+	"description": "I'm Jumbo Josh I make the MuchBang",
+	"authors": [
+		"UAVwaffle"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mccourse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.uavwaffle.mccourse.MCCourseMod"
+		],
+		"fabric-datagen": [
+			"net.uavwaffle.mccourse.MCCourseModDataGenerator"
+		],
+		"client": [
+			"net.uavwaffle.mccourse.MCCourseModClient"
+		]
+	},
+	"mixins": [
+		"mccourse.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
