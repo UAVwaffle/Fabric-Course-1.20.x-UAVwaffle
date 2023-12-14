@@ -11,8 +11,10 @@ import net.minecraft.util.Identifier;
 import net.uavwaffle.mccourse.MCCourseMod;
 
 public class ModItems {
-
+    /* All of your items are made here*/
     public static final Item PINK_GARNET = registerItem("pink_garnet",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
             new Item(new FabricItemSettings()));
 
     public static Item registerItem(String name, Item item){
@@ -20,6 +22,7 @@ public class ModItems {
     }
     private static void itemGroupIngredients(FabricItemGroupEntries entries){//All items in here get put in the ingredients tab, make a new one and a new ItemGroupEvent to put them in other creative tabs
         entries.add(PINK_GARNET);
+        entries.add(RAW_PINK_GARNET);
     }
 
 
