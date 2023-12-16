@@ -26,6 +26,7 @@ public class ModItems {
         entries.add(RAW_PINK_GARNET);
 
         entries.add(ModBlocks.PINK_GARNET_BLOCK);
+        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
     }
 
 
