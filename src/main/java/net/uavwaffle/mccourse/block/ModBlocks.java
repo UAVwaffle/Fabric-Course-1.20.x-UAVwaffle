@@ -28,7 +28,7 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
-    public static void registerModBlocks(){
+    public static void registerModBlocks(){//Why doesn't anything go here???
         MCCourseMod.LOGGER.info("Register mod blocks for: " + MCCourseMod.MOD_ID);
 
     }
