@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.uavwaffle.mccourse.MCCourseMod;
 import net.uavwaffle.mccourse.block.ModBlocks;
+import net.uavwaffle.mccourse.item.custom.MetalDetectorItem;
 
 public class ModItems {
     /* All of your items are made here*/
@@ -17,6 +18,9 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
             new Item(new FabricItemSettings()));
+
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings()));
 
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);

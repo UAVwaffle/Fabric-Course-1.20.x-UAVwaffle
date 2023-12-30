@@ -18,6 +18,7 @@ public class ModItemGroup {
                         //Put items Here
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.METAL_DETECTOR);
 
                         //Put Blocks Here
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
