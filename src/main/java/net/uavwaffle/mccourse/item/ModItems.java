@@ -20,7 +20,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
-            new MetalDetectorItem(new FabricItemSettings()));
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
 
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
