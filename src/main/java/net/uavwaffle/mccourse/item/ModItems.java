@@ -13,14 +13,21 @@ import net.uavwaffle.mccourse.block.ModBlocks;
 import net.uavwaffle.mccourse.item.custom.MetalDetectorItem;
 
 public class ModItems {
-    /* All of your items are made here*/
+                /* All of your items are made here *normal items* */
     public static final Item PINK_GARNET = registerItem("pink_garnet",
             new Item(new FabricItemSettings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
             new Item(new FabricItemSettings()));
 
+                                /*Custom Items*/
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
+
+                                /*FOOD ITEMS*/
+    public static final Item CAULIFLOWER = registerItem("cauliflower",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item NEURON_FLY = registerItem("neuron_fly",
+            new Item(new FabricItemSettings().food(ModFoodComponents.NEURON_FLY)));
 
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);

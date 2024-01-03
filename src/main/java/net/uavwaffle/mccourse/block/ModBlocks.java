@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.uavwaffle.mccourse.MCCourseMod;
+import net.uavwaffle.mccourse.block.custom.BounceBlock;
 import net.uavwaffle.mccourse.block.custom.SoundBlock;
 
 public class ModBlocks {
@@ -24,6 +25,8 @@ public class ModBlocks {
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block BOUNCE_BLOCK = registerBlock("bounce_block",
+            new BounceBlock(FabricBlockSettings.copyOf(Blocks.SLIME_BLOCK).slipperiness(0.98F)));
 
                                 /*Pink Garnet Ore Pack*/
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",

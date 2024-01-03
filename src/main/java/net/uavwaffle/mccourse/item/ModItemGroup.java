@@ -18,18 +18,27 @@ public class ModItemGroup {
                         //Put items Here
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
+
+                        //Custom Items
                         entries.add(ModItems.METAL_DETECTOR);
+
+                        //Food Items
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.NEURON_FLY);
 
                         //Put Blocks Here
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
 
-                        entries.add(ModBlocks.SOUND_BLOCK);
-
                         entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
+
+
+                        //Custom Blocks
+                        entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModBlocks.BOUNCE_BLOCK);
 
                     }).build());
 

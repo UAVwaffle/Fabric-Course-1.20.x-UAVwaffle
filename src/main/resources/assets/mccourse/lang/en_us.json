@@ -1,6 +1,9 @@
 {
   "item.mccourse.pink_garnet": "Pink Garnet",
   "item.mccourse.raw_pink_garnet": "Raw Pink Garnet",
+  "item.mccourse.cauliflower": "Cauliflower",
+  "item.mccourse.neuron_fly": "Neuron Fly",
+
   "item.mccourse.metal_detector": "Metal Detector",
 
 
@@ -8,12 +11,14 @@
   "block.mccourse.pink_garnet_block": "Block of Pink Garnet",
   "block.mccourse.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
-  "block.mccourse.sound_block": "Block of Sound",
-
   "block.mccourse.pink_garnet_ore": "Pink Garnet Ore",
   "block.mccourse.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
   "block.mccourse.end_stone_pink_garnet_ore": "End Stone Pink Garnet Ore",
   "block.mccourse.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
+
+
+  "block.mccourse.sound_block": "Sound Block",
+  "block.mccourse.bounce_block": "Bounce Block",
 
   "itemgroup.pink_garnet_group": "DE GARNET GROUP!!!",
 
