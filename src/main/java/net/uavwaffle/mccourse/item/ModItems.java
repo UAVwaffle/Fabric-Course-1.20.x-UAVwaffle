@@ -21,7 +21,7 @@ public class ModItems {
 
                                 /*Custom Items*/
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
-            new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(256).food(ModFoodComponents.NEURON_FLY)));
 
                                 /*FOOD ITEMS*/
     public static final Item CAULIFLOWER = registerItem("cauliflower",
