@@ -2,13 +2,19 @@ package net.uavwaffle.mccourse.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.uavwaffle.mccourse.MCCourseMod;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class BounceBlock extends Block {
     public BounceBlock(Settings settings) {
@@ -45,5 +51,10 @@ public class BounceBlock extends Block {
                 entity.setVelocity(entity.getVelocity().multiply( 1.0, 0.0, 1.0));
             }
         }
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
+        tooltip.add(Text.translatable("tooltip.mccourse.bounceblock"));
     }
 }

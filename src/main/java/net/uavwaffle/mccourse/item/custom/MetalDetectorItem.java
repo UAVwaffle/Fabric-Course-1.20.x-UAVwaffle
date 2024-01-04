@@ -3,12 +3,19 @@ package net.uavwaffle.mccourse.item.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Settings settings) {
@@ -54,5 +61,14 @@ public class MetalDetectorItem extends Item {
         return blockState.getBlock() == Blocks.IRON_ORE || blockState.getBlock() == Blocks.GOLD_ORE ||
                 blockState.getBlock() == Blocks.DIAMOND_ORE || blockState.getBlock() == Blocks.EMERALD_ORE ||
                 blockState.getBlock() == Blocks.REDSTONE_ORE || blockState.getBlock() == Blocks.DIAMOND_BLOCK;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        if(Screen.hasShiftDown()){
+            tooltip.add(Text.translatable("tooltip.mccourse.metal_detector.tooltip.shift"));
+        }else {
+            tooltip.add(Text.translatable("tooltip.mccourse.metal_detector.tooltip"));
+        }
     }
 }

@@ -20,11 +20,22 @@
   "block.mccourse.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
 
 
+
   "block.mccourse.sound_block": "Sound Block",
   "block.mccourse.bounce_block": "Bounce Block",
 
   "itemgroup.pink_garnet_group": "DE GARNET GROUP!!!",
 
 
+
+  "tooltip.mccourse.metal_detector.tooltip.shift": "Right click a block to check for valuables",
+  "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§p to view more info",
+
+  "tooltip.mccourse.soundblock": "Make funny sound",
+  "tooltip.mccourse.bounceblock": "HaHa block go boing",
+
+
+
   "item.mccourse.metal_detector.no_valuables": "No valuables found!"
+
 }
