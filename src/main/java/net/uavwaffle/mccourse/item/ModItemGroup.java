@@ -26,6 +26,9 @@ public class ModItemGroup {
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.NEURON_FLY);
 
+                        //Fuel Items
+                        entries.add(ModItems.PEAT_BRICK);
+
                         //Put Blocks Here
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);

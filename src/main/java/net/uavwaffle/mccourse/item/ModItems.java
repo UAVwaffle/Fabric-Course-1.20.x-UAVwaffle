@@ -29,6 +29,10 @@ public class ModItems {
     public static final Item NEURON_FLY = registerItem("neuron_fly",
             new Item(new FabricItemSettings().food(ModFoodComponents.NEURON_FLY)));
 
+                                /*FUEL ITEMS*/
+    public static final Item PEAT_BRICK = registerItem("peat_brick",
+            new Item(new FabricItemSettings()));
+
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
     }

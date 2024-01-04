@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.uavwaffle.mccourse.block.ModBlocks;
 import net.uavwaffle.mccourse.item.ModItemGroup;
 import net.uavwaffle.mccourse.item.ModItems;
+import net.uavwaffle.mccourse.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,7 @@ public class MCCourseMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
 	}
 }
