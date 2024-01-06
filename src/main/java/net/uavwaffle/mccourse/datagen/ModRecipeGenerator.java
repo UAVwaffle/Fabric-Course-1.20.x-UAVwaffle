@@ -30,8 +30,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT),conditionsFromItem(Items.IRON_INGOT))
                 .criterion(hasItem(Items.REDSTONE_BLOCK),conditionsFromItem(Items.REDSTONE_BLOCK))
                 .criterion(hasItem(ModItems.PINK_GARNET),conditionsFromItem(ModItems.PINK_GARNET))
-                .criterion(hasItem(ModItems.METAL_DETECTOR),conditionsFromItem(ModItems.METAL_DETECTOR))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR) + "_"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BOUNCE_BLOCK)
                 .pattern("ccc")
                 .pattern("csc")
@@ -41,9 +41,25 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Items.SLIME_BALL),conditionsFromItem(Items.SLIME_BALL))
                 .criterion(hasItem(Items.SLIME_BLOCK),conditionsFromItem(Items.SLIME_BLOCK))
                 .criterion(hasItem(Items.CLAY_BALL),conditionsFromItem(Items.CLAY_BALL))
-                .criterion(hasItem(ModBlocks.BOUNCE_BLOCK),conditionsFromItem(ModBlocks.BOUNCE_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BOUNCE_BLOCK)));
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_GARNET_STAIRS, 4)
+                .pattern("g  ")
+                .pattern("gg ")
+                .pattern("ggg")
+                .input('g', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_GARNET_STAIRS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_GARNET_SLAB, 6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("ggg")
+                .input('g', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_GARNET_SLAB)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PINK_GARNET_ORE)
                 .pattern("SSS")
                 .pattern("SPS")
                 .pattern("SSS")
@@ -51,7 +67,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input('P', ModItems.PINK_GARNET)
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_PINK_GARNET) + "_"));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_GARNET_ORE) + "_"));
+
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PINK_GARNET, RecipeCategory.MISC, ModBlocks.PINK_GARNET_BLOCK);

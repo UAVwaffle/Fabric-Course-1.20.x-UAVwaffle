@@ -37,6 +37,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
+                        //furniture
+                        entries.add(ModBlocks.PINK_GARNET_STAIRS);
+                        entries.add(ModBlocks.PINK_GARNET_SLAB);
 
 
                         //Custom Blocks
