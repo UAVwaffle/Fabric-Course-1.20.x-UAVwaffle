@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "mccourse:pink_garnet_block"
+    },
+    "g": {
+      "item": "mccourse:pink_garnet"
+    }
+  },
+  "pattern": [
+    "   ",
+    "bgb",
+    "bgb"
+  ],
+  "result": {
+    "item": "mccourse:pink_garnet_fence_gate"
+  },
+  "show_notification": true
+}

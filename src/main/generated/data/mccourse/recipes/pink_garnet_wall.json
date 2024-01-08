@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "mccourse:pink_garnet_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ggg",
+    "ggg"
+  ],
+  "result": {
+    "count": 6,
+    "item": "mccourse:pink_garnet_wall"
+  },
+  "show_notification": true
+}

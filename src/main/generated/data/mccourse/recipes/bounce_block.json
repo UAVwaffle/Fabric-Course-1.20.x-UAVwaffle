@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:clay_ball"
+    },
+    "s": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "csc",
+    "ccc"
+  ],
+  "result": {
+    "item": "mccourse:bounce_block"
+  },
+  "show_notification": true
+}

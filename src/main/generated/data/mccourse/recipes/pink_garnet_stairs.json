@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "mccourse:pink_garnet_block"
+    }
+  },
+  "pattern": [
+    "g  ",
+    "gg ",
+    "ggg"
+  ],
+  "result": {
+    "count": 4,
+    "item": "mccourse:pink_garnet_stairs"
+  },
+  "show_notification": true
+}

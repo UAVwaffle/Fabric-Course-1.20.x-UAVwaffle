@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "mccourse:nether_pink_garnet_ore",
+    "mccourse:end_stone_pink_garnet_ore",
+    "mccourse:deepslate_pink_garnet_ore",
+    "mccourse:pink_garnet_ore",
+    "mccourse:sound_block",
+    "mccourse:raw_pink_garnet_block",
+    "mccourse:pink_garnet_block",
+    "mccourse:pink_garnet_stairs",
+    "mccourse:pink_garnet_slab",
+    "mccourse:pink_garnet_pressure_plate",
+    "mccourse:pink_garnet_wall",
+    "mccourse:pink_garnet_fence",
+    "mccourse:pink_garnet_fence_gate",
+    "mccourse:pink_garnet_door",
+    "mccourse:pink_garnet_trapdoor"
+  ]
+}
