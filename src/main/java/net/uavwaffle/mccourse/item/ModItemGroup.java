@@ -22,6 +22,13 @@ public class ModItemGroup {
                         //Custom Items
                         entries.add(ModItems.METAL_DETECTOR);
 
+                        //Tool Items
+                        entries.add(ModItems.PINK_GARNET_SWORD);
+                        entries.add(ModItems.PINK_GARNET_PICKAXE);
+                        entries.add(ModItems.PINK_GARNET_AXE);
+                        entries.add(ModItems.PINK_GARNET_SHOVEL);
+                        entries.add(ModItems.PINK_GARNET_HOE);
+
                         //Food Items
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.NEURON_FLY);

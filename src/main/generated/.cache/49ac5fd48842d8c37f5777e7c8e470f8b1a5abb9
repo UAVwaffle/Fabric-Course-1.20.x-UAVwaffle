@@ -1,9 +1,11 @@
-// 1.20.1	2024-01-08T12:03:57.6987052	MC Course MOd/Tags for minecraft:block
+// 1.20.1	2024-01-13T15:11:14.438449	MC Course MOd/Tags for minecraft:block
 44c98cbccbbe6c963068d9855497e95103c11746 data\minecraft\tags\blocks\fence_gates.json
-d2fe93669f217918ed0fc5d93d6dd4ca95e95321 data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
+e7d20e1649c9935aff53b4e689a343ef2fd40704 data\fabric\tags\blocks\needs_tool_level_5.json
+03ee821265d83284e4cd34a4b2c9075b49ed2a6a data\fabric\tags\blocks\needs_tool_level_4.json
 78b821323f95d2a39da78c8e495f9ea41951b6f0 data\mccourse\tags\blocks\metal_detector_detectable_blocks.json
 517632cca94e9946eb0ffa70b9c76633dbe1cf71 data\minecraft\tags\blocks\walls.json
-fd169f125e8fb823ddd61fa458fff84b5bf5b17c data\minecraft\tags\blocks\needs_iron_tool.json
-c5a003da703da3292108820964b103738338d6df data\minecraft\tags\blocks\needs_stone_tool.json
-054139939470485ffcc4479b643d9d6e0f51496d data\minecraft\tags\blocks\fences.json
 6382129a915d12906cae073cb1b0063e89ab19cc data\minecraft\tags\blocks\mineable\pickaxe.json
+fd169f125e8fb823ddd61fa458fff84b5bf5b17c data\minecraft\tags\blocks\needs_iron_tool.json
+054139939470485ffcc4479b643d9d6e0f51496d data\minecraft\tags\blocks\fences.json
+c5a003da703da3292108820964b103738338d6df data\minecraft\tags\blocks\needs_stone_tool.json
