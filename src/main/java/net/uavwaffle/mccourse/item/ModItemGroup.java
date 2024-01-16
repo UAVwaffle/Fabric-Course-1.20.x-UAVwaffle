@@ -21,6 +21,7 @@ public class ModItemGroup {
 
                         //Custom Items
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.PINK_GARNET_PAXEL);
 
                         //Tool Items
                         entries.add(ModItems.PINK_GARNET_SWORD);

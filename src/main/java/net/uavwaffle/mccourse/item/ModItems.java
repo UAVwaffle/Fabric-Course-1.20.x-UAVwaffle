@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.uavwaffle.mccourse.MCCourseMod;
 import net.uavwaffle.mccourse.block.ModBlocks;
+import net.uavwaffle.mccourse.block.custom.PaxelItem;
 import net.uavwaffle.mccourse.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -22,6 +23,8 @@ public class ModItems {
                                 /*Custom Items*/
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(256).food(ModFoodComponents.NEURON_FLY)));
+    public static final Item PINK_GARNET_PAXEL = registerItem("pink_garnet_paxel",
+            new PaxelItem(ModToolMaterial.PINK_GARNET,0,0f, new FabricItemSettings()));
 
 
                                 /*TOOL ITEMS*/
