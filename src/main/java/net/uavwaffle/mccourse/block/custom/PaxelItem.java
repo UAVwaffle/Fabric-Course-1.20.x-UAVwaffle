@@ -8,6 +8,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.CampfireBlock;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.sound.SoundCategory;
@@ -103,6 +106,12 @@ public class PaxelItem extends MiningToolItem {
         return ActionResult.PASS;
     }
 
+    @Override
+    public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+        target.setOnFireFor(10);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 0), attacker);
+        return super.postHit(stack, target, attacker);
+    }
 
     /**
      * {@return a tilling action that sets a block state}
