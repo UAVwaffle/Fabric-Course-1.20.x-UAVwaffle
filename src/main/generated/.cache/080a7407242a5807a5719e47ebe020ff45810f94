@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-16T16:37:47.1198696	MC Course MOd/Block Loot Tables
+// 1.20.1	2024-01-21T13:09:15.3047985	MC Course MOd/Block Loot Tables
 7843a3c48f30392d6956f1b77aa59b291d769731 data\mccourse\loot_tables\blocks\pink_garnet_stairs.json
 889a5ee84c3e26c153eba897206947c442c99a0a data\mccourse\loot_tables\blocks\pink_garnet_ore.json
 142ad9fe4ed1e88947043cb7c17f77494b2f2a27 data\mccourse\loot_tables\blocks\nether_pink_garnet_ore.json
@@ -14,5 +14,5 @@ b3c77a3b71b18920b7ddd7373aec394fa3401084 data\mccourse\loot_tables\blocks\pink_g
 db9b7ba7f4993f58e55b0b14b7b14e325f03d137 data\mccourse\loot_tables\blocks\pink_garnet_button.json
 d99b5df52093b717682327159deb7365e9986450 data\mccourse\loot_tables\blocks\raw_pink_garnet_block.json
 dc482dcc4f5cbc24a3668a70c282bd166353a616 data\mccourse\loot_tables\blocks\pink_garnet_trapdoor.json
-d9244855f90021e3a7f7197892650c544fe7c846 data\mccourse\loot_tables\blocks\pink_garnet_slab.json
 8dc3330aacc17cae0c81c0621bc13294377a8a67 data\mccourse\loot_tables\blocks\pink_garnet_fence_gate.json
+d9244855f90021e3a7f7197892650c544fe7c846 data\mccourse\loot_tables\blocks\pink_garnet_slab.json

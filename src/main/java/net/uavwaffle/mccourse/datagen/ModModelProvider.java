@@ -49,6 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NEURON_FLY, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WAR_STICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.PINK_GARNET_PAXEL, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);

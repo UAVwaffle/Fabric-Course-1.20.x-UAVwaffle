@@ -1,4 +1,4 @@
-package net.uavwaffle.mccourse.block.custom;
+package net.uavwaffle.mccourse.item.custom;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
