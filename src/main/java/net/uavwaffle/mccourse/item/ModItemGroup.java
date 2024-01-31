@@ -31,6 +31,15 @@ public class ModItemGroup {
                         entries.add(ModItems.PINK_GARNET_SHOVEL);
                         entries.add(ModItems.PINK_GARNET_HOE);
 
+                        //Armor Items
+                        entries.add(ModItems.PINK_GARNET_HELMET);
+                        entries.add(ModItems.PINK_GARNET_CHESTPLATE);
+                        entries.add(ModItems.PINK_GARNET_LEGGINGS);
+                        entries.add(ModItems.PINK_GARNET_BOOTS);
+
+                        entries.add(ModItems.PINK_GARNET_HORSE_ARMOR);
+
+
                         //Food Items
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.NEURON_FLY);

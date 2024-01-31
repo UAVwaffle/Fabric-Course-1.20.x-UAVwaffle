@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.uavwaffle.mccourse.MCCourseMod;
 import net.uavwaffle.mccourse.block.ModBlocks;
+import net.uavwaffle.mccourse.item.custom.ModArmorItem;
 import net.uavwaffle.mccourse.item.custom.PaxelItem;
 import net.uavwaffle.mccourse.item.custom.MetalDetectorItem;
 import net.uavwaffle.mccourse.item.custom.WarStick;
@@ -45,6 +46,19 @@ public class ModItems {
 
     public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
             new HoeItem(ModToolMaterial.PINK_GARNET, 0,0f, new FabricItemSettings()));
+
+                            /*ARMOR ITEMS*/
+    public static final Item PINK_GARNET_HELMET = registerItem("pink_garnet_helmet",
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item PINK_GARNET_CHESTPLATE = registerItem("pink_garnet_chestplate",
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item PINK_GARNET_LEGGINGS = registerItem("pink_garnet_leggings",
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item PINK_GARNET_BOOTS = registerItem("pink_garnet_boots",
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item PINK_GARNET_HORSE_ARMOR = registerItem("pink_garnet_horse_armor",
+            new HorseArmorItem(45, "pink_garnet", new FabricItemSettings()));
 
 
                                 /*FOOD ITEMS*/
